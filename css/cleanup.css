@@ -1,1 +1,25 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+    width: 200px;
+    height: 300px;
+}
+
+#wall #tag-2 {
+    position: static;
+    display: none;
+}
+
+div#wall #tag-3.slick {
+    display: grid;
+    z-index: 6;
+}
+
+#wall .parent #tag-4 {
+    z-index: 5;
+    display: grid;
+}
+div#wall .parent #tag-5.slick {
+    z-index: 5;
+    display: inherit;
+}
